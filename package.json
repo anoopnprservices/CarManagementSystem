@@ -1,0 +1,20 @@
+{
+  "name": "carmanagementsystem",
+  "version": "1.0.0",
+  "description": "In this application I am bulding a Car Management System Application. Where user can signup and login. After login user can create product like car title description etc. In this application I'm using Backend (Node.js, Express.js, and MongoDB) and Frontend technology.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Anoop Maurya",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1"
+  }
+}
